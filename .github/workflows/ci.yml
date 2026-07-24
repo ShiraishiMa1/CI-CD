@@ -21,4 +21,4 @@ jobs:
         run: mvn clean package
 
       - name: Build Docker Image
-        run: docker build -t CI-CD .
+        run: docker build -t ci-cd .
